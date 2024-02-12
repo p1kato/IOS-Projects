@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31CCF9BAB64679A4B40C8D9D /* Pods_csgoPlayers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6984EF31CE9A4E5F81626C5 /* Pods_csgoPlayers.framework */; };
+		692EF2E42B73F07B00D7B978 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692EF2E32B73F07B00D7B978 /* TableViewController.swift */; };
+		692EF2E62B73F14300D7B978 /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692EF2E52B73F14300D7B978 /* TeamTableViewCell.swift */; };
+		692EF2E82B73F39900D7B978 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692EF2E72B73F39900D7B978 /* Team.swift */; };
+		6967A9D22B740789002E8651 /* PlayersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967A9D12B740789002E8651 /* PlayersTableViewController.swift */; };
+		6967A9D42B7407B9002E8651 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967A9D32B7407B9002E8651 /* Player.swift */; };
+		6994D5AF2B73EEDC005AC97D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6994D5AE2B73EEDC005AC97D /* AppDelegate.swift */; };
+		6994D5B12B73EEDC005AC97D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6994D5B02B73EEDC005AC97D /* SceneDelegate.swift */; };
+		6994D5B32B73EEDC005AC97D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6994D5B22B73EEDC005AC97D /* ViewController.swift */; };
+		6994D5B62B73EEDC005AC97D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6994D5B42B73EEDC005AC97D /* Main.storyboard */; };
+		6994D5B82B73EEDD005AC97D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6994D5B72B73EEDD005AC97D /* Assets.xcassets */; };
+		6994D5BB2B73EEDD005AC97D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6994D5B92B73EEDD005AC97D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E0B561B6D186A81EF663DD3 /* Pods-csgoPlayers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-csgoPlayers.release.xcconfig"; path = "Target Support Files/Pods-csgoPlayers/Pods-csgoPlayers.release.xcconfig"; sourceTree = "<group>"; };
+		692EF2E32B73F07B00D7B978 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		692EF2E52B73F14300D7B978 /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
+		692EF2E72B73F39900D7B978 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		6967A9D12B740789002E8651 /* PlayersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersTableViewController.swift; sourceTree = "<group>"; };
+		6967A9D32B7407B9002E8651 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		6994D5AB2B73EEDC005AC97D /* csgoPlayers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = csgoPlayers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6994D5AE2B73EEDC005AC97D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6994D5B02B73EEDC005AC97D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6994D5B22B73EEDC005AC97D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6994D5B52B73EEDC005AC97D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6994D5B72B73EEDD005AC97D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6994D5BA2B73EEDD005AC97D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6994D5BC2B73EEDD005AC97D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0C44F0D1170C27C9996AED1 /* Pods-csgoPlayers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-csgoPlayers.debug.xcconfig"; path = "Target Support Files/Pods-csgoPlayers/Pods-csgoPlayers.debug.xcconfig"; sourceTree = "<group>"; };
+		E6984EF31CE9A4E5F81626C5 /* Pods_csgoPlayers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_csgoPlayers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6994D5A82B73EEDC005AC97D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31CCF9BAB64679A4B40C8D9D /* Pods_csgoPlayers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A182128C04EC9610B8914A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0C44F0D1170C27C9996AED1 /* Pods-csgoPlayers.debug.xcconfig */,
+				2E0B561B6D186A81EF663DD3 /* Pods-csgoPlayers.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6994D5A22B73EEDC005AC97D = {
+			isa = PBXGroup;
+			children = (
+				6994D5AD2B73EEDC005AC97D /* csgoPlayers */,
+				6994D5AC2B73EEDC005AC97D /* Products */,
+				5A182128C04EC9610B8914A1 /* Pods */,
+				6EC6795C30270CA726480475 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6994D5AC2B73EEDC005AC97D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6994D5AB2B73EEDC005AC97D /* csgoPlayers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6994D5AD2B73EEDC005AC97D /* csgoPlayers */ = {
+			isa = PBXGroup;
+			children = (
+				6994D5AE2B73EEDC005AC97D /* AppDelegate.swift */,
+				6994D5B02B73EEDC005AC97D /* SceneDelegate.swift */,
+				6994D5B22B73EEDC005AC97D /* ViewController.swift */,
+				692EF2E32B73F07B00D7B978 /* TableViewController.swift */,
+				692EF2E72B73F39900D7B978 /* Team.swift */,
+				6967A9D32B7407B9002E8651 /* Player.swift */,
+				692EF2E52B73F14300D7B978 /* TeamTableViewCell.swift */,
+				6967A9D12B740789002E8651 /* PlayersTableViewController.swift */,
+				6994D5B42B73EEDC005AC97D /* Main.storyboard */,
+				6994D5B72B73EEDD005AC97D /* Assets.xcassets */,
+				6994D5B92B73EEDD005AC97D /* LaunchScreen.storyboard */,
+				6994D5BC2B73EEDD005AC97D /* Info.plist */,
+			);
+			path = csgoPlayers;
+			sourceTree = "<group>";
+		};
+		6EC6795C30270CA726480475 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6984EF31CE9A4E5F81626C5 /* Pods_csgoPlayers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6994D5AA2B73EEDC005AC97D /* csgoPlayers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6994D5BF2B73EEDD005AC97D /* Build configuration list for PBXNativeTarget "csgoPlayers" */;
+			buildPhases = (
+				EEB7A36995DA2DEC98708468 /* [CP] Check Pods Manifest.lock */,
+				6994D5A72B73EEDC005AC97D /* Sources */,
+				6994D5A82B73EEDC005AC97D /* Frameworks */,
+				6994D5A92B73EEDC005AC97D /* Resources */,
+				82149AE03405B89E72D7A68F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = csgoPlayers;
+			productName = csgoPlayers;
+			productReference = 6994D5AB2B73EEDC005AC97D /* csgoPlayers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6994D5A32B73EEDC005AC97D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					6994D5AA2B73EEDC005AC97D = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 6994D5A62B73EEDC005AC97D /* Build configuration list for PBXProject "csgoPlayers" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6994D5A22B73EEDC005AC97D;
+			productRefGroup = 6994D5AC2B73EEDC005AC97D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6994D5AA2B73EEDC005AC97D /* csgoPlayers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6994D5A92B73EEDC005AC97D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6994D5BB2B73EEDD005AC97D /* LaunchScreen.storyboard in Resources */,
+				6994D5B82B73EEDD005AC97D /* Assets.xcassets in Resources */,
+				6994D5B62B73EEDC005AC97D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82149AE03405B89E72D7A68F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-csgoPlayers/Pods-csgoPlayers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-csgoPlayers/Pods-csgoPlayers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-csgoPlayers/Pods-csgoPlayers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEB7A36995DA2DEC98708468 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-csgoPlayers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6994D5A72B73EEDC005AC97D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6994D5B32B73EEDC005AC97D /* ViewController.swift in Sources */,
+				6967A9D22B740789002E8651 /* PlayersTableViewController.swift in Sources */,
+				6994D5AF2B73EEDC005AC97D /* AppDelegate.swift in Sources */,
+				6994D5B12B73EEDC005AC97D /* SceneDelegate.swift in Sources */,
+				6967A9D42B7407B9002E8651 /* Player.swift in Sources */,
+				692EF2E62B73F14300D7B978 /* TeamTableViewCell.swift in Sources */,
+				692EF2E42B73F07B00D7B978 /* TableViewController.swift in Sources */,
+				692EF2E82B73F39900D7B978 /* Team.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6994D5B42B73EEDC005AC97D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6994D5B52B73EEDC005AC97D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6994D5B92B73EEDD005AC97D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6994D5BA2B73EEDD005AC97D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6994D5BD2B73EEDD005AC97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6994D5BE2B73EEDD005AC97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6994D5C02B73EEDD005AC97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0C44F0D1170C27C9996AED1 /* Pods-csgoPlayers.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = csgoPlayers/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.mobydev.csgoPlayers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6994D5C12B73EEDD005AC97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0B561B6D186A81EF663DD3 /* Pods-csgoPlayers.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = csgoPlayers/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.mobydev.csgoPlayers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6994D5A62B73EEDC005AC97D /* Build configuration list for PBXProject "csgoPlayers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6994D5BD2B73EEDD005AC97D /* Debug */,
+				6994D5BE2B73EEDD005AC97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6994D5BF2B73EEDD005AC97D /* Build configuration list for PBXNativeTarget "csgoPlayers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6994D5C02B73EEDD005AC97D /* Debug */,
+				6994D5C12B73EEDD005AC97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6994D5A32B73EEDC005AC97D /* Project object */;
+}

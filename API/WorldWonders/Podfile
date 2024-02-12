@@ -1,0 +1,13 @@
+platform :ios, '17.0'
+
+target 'WorldWonders' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for WorldWonders
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
+  pod 'SVProgressHUD'
+  pod 'SDWebImage'
+
+end
